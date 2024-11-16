@@ -1,0 +1,61 @@
+/* src/components/Header/Header.module.css */
+
+.header {
+  background-color: #1e1e1e; /* Tailwind's bg-gray-800 */
+}
+
+.emailAndSyncContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+
+.emailContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* spacing between icon and email */
+}
+
+.icon {
+  width: 32px; /* enlarged from 24px */
+  height: 32px; /* enlarged from 24px */
+}
+
+.email {
+  font-size: 1.5rem; /* Tailwind text-lg */
+  font-weight: 700; /* Tailwind font-bold */
+  color: #ffffff; /* Tailwind text-white */
+}
+
+.syncStatus {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem; /* spacing between indicator and text */
+  background-color: #374151; /* Tailwind bg-gray-700 */
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px; /* Tailwind rounded-full */
+  font-size: 0.875rem; /* Tailwind text-sm */
+  color: #ffffff; /* Tailwind text-white */
+}
+
+.syncIndicator {
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: #10b981; /* Tailwind green-500 */
+  border-radius: 50%;
+}
+
+.updateText {
+  font-size: 0.875rem; /* Tailwind text-sm */
+  color: #9ca3af; /* Tailwind text-gray-400 */
+}
+
+.learnMoreLink {
+  color: #3b82f6; /* Tailwind text-blue-500 */
+  text-decoration: underline;
+}
+
+.learnMoreLink:hover {
+  color: #2563eb; /* Tailwind text-blue-400 */
+}

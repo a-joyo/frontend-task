@@ -1,0 +1,51 @@
+/* src/components/Tabs/Tabs.module.css */
+
+.container {
+  background-color: #1e1e1e; /* gray-900 */
+  color: #ffffff;
+}
+
+.tabHeaders {
+  display: flex;
+  gap: 1.5rem; /* space-x-6 equivalent */
+  border-bottom: 1px solid #4a4a4a; /* gray-700 */
+}
+
+.tabButton {
+  display: flex;
+  align-items: center;
+  padding-bottom: 0.5rem;
+  color: #cbced4; /* gray-400 for inactive state */
+  cursor: pointer;
+  transition: color 0.2s ease;
+  /* border-bottom: 1px solid transparent; No underline by default */
+}
+
+.tabButton:hover {
+  color: #3b82f6; /* Lighter gray on hover */
+}
+
+.activeTab {
+  color: #3b82f6; /* blue-500 for active text and icon */
+  border-bottom: 1px solid #3b82f6; /* Blue underline for active tab */
+}
+
+.icon {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.25rem;
+}
+
+.badge {
+  background-color: #4a4a4a; /* gray-600 */
+  color: #d1d5db; /* gray-300 */
+  border-radius: 9999px;
+  padding: 0.125rem 0.5rem;
+  font-size: 0.75rem;
+  margin-left: 0.25rem;
+}
+
+.content {
+  margin-top: 1rem;
+  color: #d1d5db; /* gray-300 */
+}

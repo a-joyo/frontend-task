@@ -1,0 +1,22 @@
+/* src/components/Breadcrumb/Breadcrumb.module.css */
+
+.breadcrumbContainer {
+  display: flex;
+  gap: 0.5rem; /* space-x-2 equivalent */
+  color: #9ca3af; /* Tailwind text-gray-400 */
+  font-size: 0.875rem; /* Tailwind text-sm */
+}
+
+.breadcrumbItem {
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.breadcrumbItem:hover {
+  color: #e5e7eb; /* Tailwind text-gray-200 */
+}
+
+.breadcrumbCurrent {
+  color: #ffffff; /* Tailwind text-white */
+  font-weight: 600; /* Tailwind font-semibold */
+}

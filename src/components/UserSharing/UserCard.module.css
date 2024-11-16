@@ -1,0 +1,53 @@
+/* src/components/IndividualInboxSharing/UserCard.module.css */
+
+.card {
+  border-top: 1px solid #374151;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  background-color: #1e1e1e; /* Tailwind bg-gray-700 */
+  border-bottom: 1px solid #374151; /* Tailwind border-gray-600 */
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  color: white;
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.avatarPurple {
+  background-color: #8b5cf6; /* Tailwind purple-500 */
+}
+
+.avatarYellow {
+  background-color: #fbbf24; /* Tailwind yellow-500 */
+}
+
+.userName {
+  font-weight: 500; /* font-medium */
+}
+
+.userEmail {
+  color: #9ca3af; /* Tailwind text-gray-400 */
+  font-size: 0.875rem; /* text-sm */
+}
+
+.dropdown {
+  background-color: #1e1e1e; /* Tailwind bg-gray-800 */
+  color: gray;
+  border-radius: 0.375rem;
+  padding: 0.25rem 0.5rem;
+  text-align: right;
+}

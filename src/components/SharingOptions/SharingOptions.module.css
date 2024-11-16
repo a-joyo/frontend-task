@@ -1,0 +1,66 @@
+/* src/components/SharingOptions/SharingOptions.module.css */
+
+.container {
+  margin-bottom: 1.5rem;
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: #1e1e1e; /* Dark gray background */
+  border: 1px solid #4a4a4a;
+  transition: border-color 0.2s ease;
+}
+
+.selectedOption {
+  border-color: #3b82f6; /* Blue border for the selected option */
+}
+
+.icon {
+  background-color: #1a1a1a; /* Darker background for the icon */
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.labelContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.description {
+  font-size: 0.875rem;
+  color: #9ca3af; /* Light gray text for the description */
+}
+
+.radioButton {
+  margin-left: auto;
+  width: 1rem;
+  height: 1rem;
+  accent-color: #3b82f6; /* Blue color for the selected radio button */
+}
+
+.badge {
+  background-color: #a78b4a; /* Gold background */
+  color: #ffffff;
+  font-size: 0.75rem;
+  padding: 0.1rem 0.4rem;
+  border-radius: 0.25rem;
+  margin-left: 0.5rem;
+}

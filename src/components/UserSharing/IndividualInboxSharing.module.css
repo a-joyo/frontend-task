@@ -1,0 +1,80 @@
+/* src/components/IndividualInboxSharing/IndividualInboxSharing.module.css */
+
+.container {
+  background-color: #1e1e1e; /* Tailwind bg-gray-800 */
+  border-radius: 0.5rem; /* rounded-lg */
+  margin: 0 auto;
+  color: #f9fafb; /* Tailwind text-white */
+}
+
+.title {
+  font-size: 1.25rem; /* text-xl */
+  font-weight: 600; /* font-semibold */
+  margin-bottom: 1rem;
+}
+
+/* Flex container to align the user info and share button side by side */
+.userAndButtonContainer {
+  display: flex;
+  align-items: center;
+  gap: 1rem; /* Spacing between user container and share button */
+}
+
+.selectedUserContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.25rem;
+  border: 1px solid #374151; /* Tailwind border-gray-600 */
+  border-radius: 0.5rem;
+  flex-grow: 1; /* Allows the user container to take up remaining space */
+}
+
+.selectedUserInfo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.avatar {
+  background-color: #3b82f6; /* blue-500 */
+  color: white;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  margin-right: 0.5rem;
+}
+
+.dropdown {
+  color: gray;
+  border-radius: 0.5rem;
+  border: none;
+  text-align: right;
+  padding: 0.25rem 0.5rem;
+}
+
+.shareButton {
+  background-color: #3b82f6; /* Tailwind blue-500 */
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.shareButton:hover {
+  background-color: #2563eb; /* Tailwind blue-600 */
+}
+
+.userListHeader {
+  display: flex;
+  justify-content: space-between;
+  color: #9ca3af; /* Tailwind text-gray-500 */
+  font-size: small;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
